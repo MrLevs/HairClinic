@@ -1,0 +1,383 @@
+@media (max-width: 1090px) {
+    .phase {
+        &__inner {
+            padding: 0 30px;
+        }
+    }
+}
+@media (max-width: 1025px) {
+    .info {
+        &__inner {
+            padding: 50px;
+        }
+    }
+    .phase {
+        &__inner {
+            gap: 30px;
+        }
+    }
+}
+@media (max-width: 950px) {
+    .button, .btn {
+        font-size: 1rem;
+    }
+    .titles {
+        &__title {
+            font-size: 1.5rem;
+        }
+        &__subtitle {
+            font-size: 1rem;
+        }
+    }
+    .info {
+        &__inner {
+            gap: 30px;
+        }
+    }
+    .intro {
+        &__inner {
+            gap: 0 20px;
+        }
+        &__title {
+            font-size: 2rem;
+        }
+    }
+    .jobs {
+        &__card {
+            padding: 15px;
+            gap: 10px 0;
+        }
+        &__title {
+            font-size: 1.5rem;
+        }
+        &__price {
+            font-size: 1rem;
+        }
+    }
+    .phase {
+        &__title {
+            font-size: 1rem;
+        }
+        &__text {
+            margin-top: 10px;
+            font-size: 1rem;
+        }
+    }
+}
+@media (max-width: 905px) {
+    .intro {
+        &__img_hair {
+            right: -13px;
+        }
+    }
+    .card {
+        padding-top: 140px;
+        &__inner {
+            padding: 50px;
+            gap: 20px;
+        }
+    }
+    .foto {
+        &__img {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 870px) {
+    .intro {
+        &__inner {
+            gap: 0 10px;
+        }
+        &__img_no-hair {
+            left: -13px;
+        }
+        &__img_hair {
+            right: -11px;
+        }
+    }
+    .phase {
+        padding-top: 40px;
+    }
+    .form {
+        &__button {
+            font-size: 1rem;
+        }
+    }
+    .popup {
+        padding: 25px;
+        &__inner {
+            gap: 10px;
+        }
+        &__info {
+            flex-direction: column;
+            gap: 20px;
+        }
+        &__content {
+            flex-direction: column;
+            gap: 10px;
+        }
+        &__col {
+            gap: 10px;
+        }
+    }
+}
+@media (max-width: 815px) {
+    .intro {
+        &__title {
+            font-size: 1.5rem;
+        }
+        &__background {
+            height: 50%;
+        }
+    }
+    .info {
+        &__content {
+            flex-direction: column;
+        }
+        &__text {
+            font-size: 0.8rem;
+        }
+        &__card-text {
+            font-size: 1rem;
+        }
+    }
+    .card {
+        &__text {
+            font-size: 0.8rem;
+        }
+    }
+}
+@media (max-width: 750px) {
+    .intro {
+        &__img_no-hair {
+            left: -9px;
+        }
+        &__img_hair {
+            right: -10px;
+        }
+    }
+    .phase {
+        &__inner {
+            grid-template-rows: 20% 18% 17% 20% 25%;
+        }
+    }
+}
+@media (max-width: 675px) {
+    .intro {
+        &__img_no-hair {
+            left: -9px;
+        }
+        &__img_hair {
+            right: -8px;
+        }
+        &__background {
+            height: 40%;
+        }
+    }
+    .doctor {
+        &__card {
+            max-width: 100%;
+        }
+    }
+}
+@media (max-width: 635px) {
+    .spoiler {
+        &__title {
+            font-size: 1rem;
+            &::after {
+                top: -7px;
+                right: -33px;
+            }
+
+        }
+    }
+    .intro {
+        &__inner {
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 20px 0;
+        }
+        &__info {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        &__title {
+            margin: 0;
+            text-align: center;
+        }
+        &__subtitle {
+            margin: 0;
+        }
+        &__image {
+            height: 50%;
+        }
+        &__img_no-hair {
+            left: -9px;
+        }
+        &__img_hair {
+            right: -8px;
+        }
+        &__background {
+            height: 50%;
+        }
+    }
+    .info {
+        &__box {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 10px 0;
+        }
+    }
+    .jobs {
+        &__inner {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 10px 0;
+        }
+    }
+    .phase {
+        &__inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px 0;
+        }
+        &__content {
+            padding-bottom: 20px;
+            position: relative;
+            align-items: center;
+            gap: 20px 0;
+        }
+    }
+    .card {
+        padding: 40px 0 0 0;
+        &__inner {
+            flex-direction: column-reverse;
+            padding: 20px;
+        }
+        &__content {
+            align-items: center;
+            gap: 20px 0;
+        }
+    }
+    .client {
+        &__inner {
+            padding: 0 20px;
+        }
+        &__box {
+            flex-direction: column;
+            gap: 10px 0;
+            margin-bottom: 45px;
+        }
+    }
+    .form {
+        padding: 0;
+        &__inner {
+            padding: 20px;
+        }
+        &__form {
+            display: flex;
+            flex-direction: column;
+        }
+        &__box {
+            flex-direction: column-reverse;
+            gap: 10px 0;
+        }
+        &__text {
+            text-align: center;
+        }
+    }
+    .doctor {
+        &__inner {
+            padding: 0 50px;
+        }
+    }
+    .others {
+        &__inner {
+            padding: 50px 20px;
+            align-items: center;
+            gap: 25px;
+        }
+        &__box {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .map {
+        padding: 40px 0;
+        &__content {
+            padding: 20px;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        &__contacts {
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+    }
+    .foto {
+        &__inner {
+            padding: 0 50px;
+        }
+        &__img {
+            width: 100%;
+        }
+    }
+    .license {
+        &__inner {
+            padding: 0;
+            flex-direction: column;
+            gap: 20px 0;
+        }
+    }
+    .faq {
+        padding-top: 40px;
+        &__inner {
+            padding: 0px;
+        }
+    }
+    .footer {
+        padding: 40px 0 50px;
+        &__inner {
+            padding: 20px;
+            gap: 25px 0;
+        }
+        &__content {
+            gap: 20px 0;
+        }
+        &__box {
+            flex-direction: column;
+            gap: 10px 0;
+        }
+    }
+}
+@media (max-width: 490px) {
+    .intro {
+        &__img_no-hair {
+            left: -7px;
+        }
+        &__img_hair {
+            right: -7px;
+        }
+    }
+}
+@media (max-width: 430px) {
+    .intro {
+        &__image {
+            width: 67%;
+        }
+    }
+}
+@media (max-width: 360px) {
+    .intro {
+        &__image {
+            width: 81%;
+        }
+    }
+
+}

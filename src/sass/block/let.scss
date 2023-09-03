@@ -1,0 +1,19 @@
+$glob-bg: #fafafa;
+$glob-color: #5c5c5c;
+$hover-btn-bg: #11595f;
+
+%font-link {
+    font-weight: 300;
+    font-size: 1rem;
+}
+%button {
+    background-color: #51b8c1;
+    border: #51b8c1;
+    border-radius: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
